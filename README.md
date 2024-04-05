@@ -18,7 +18,8 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: Bhargava S
-RegisterNumber:  212221040029
+RegisterNumber:  212221040029 */
+```python
 import pandas as pd
 data = pd.read_csv("/content/Employee_EX6.csv")
 data.head()
@@ -41,9 +42,7 @@ y_pred = dt.predict(x_test)
 from sklearn import metrics
 accuracy = metrics.accuracy_score(y_test,y_pred)
 accuracy
-*/
 ```
-
 ## Output:
 ![image](https://github.com/Bhargava-Shankar/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/85554376/99d55078-4cac-4d60-ab1e-28954dc733de)
 ![image](https://github.com/Bhargava-Shankar/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/85554376/584d3a3a-53ab-40be-964f-c3a13e2847ea)
