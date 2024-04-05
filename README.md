@@ -8,10 +8,10 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Find the entropy of the tree when each field is taken as a root node
+2. Consider the field with lowest entropy as root node and repeat the same with remaining nodes as subnode
+4. End the tree when there are no more fields to divide and the classification is not mixed
+5. Predict the output by traversing through the decision tree built 
 
 ## Program:
 ```
@@ -46,6 +46,7 @@ accuracy
 
 ## Output:
 ![image](https://github.com/Bhargava-Shankar/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/85554376/99d55078-4cac-4d60-ab1e-28954dc733de)
+![image](https://github.com/Bhargava-Shankar/Implementation-of-Decision-Tree-Classifier-Model-for-Predicting-Employee-Churn/assets/85554376/584d3a3a-53ab-40be-964f-c3a13e2847ea)
 
 
 
