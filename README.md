@@ -14,7 +14,6 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 5. Predict the output by traversing through the decision tree built 
 
 ## Program:
-```
 /*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: Bhargava S
